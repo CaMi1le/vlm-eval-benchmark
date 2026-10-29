@@ -1,0 +1,25 @@
+# Runtime inputs, credentials and generated results never belong in Git.
+/vendor/
+/data/
+/cache/
+/runs/
+/reports/
+/models/
+/demo-output/
+/dist/
+/build/
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+*.local.json
+.env
+.env.*
+.secrets/
+*.pem
+*.key
+*.safetensors
+*.gguf
+*.onnx
+*.engine

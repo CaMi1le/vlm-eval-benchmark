@@ -1,0 +1,14 @@
+{
+  "suite": "public-vlm-v1",
+  "seed": 20261016,
+  "core_per_dataset": 24,
+  "video_frames": 8,
+  "sources": {
+    "MMStar": {"repo": "Lin-Chen/MMStar", "revision": "bc98d668301da7b14f648724866e57302778ab27", "files": ["mmstar.parquet"], "split": "val", "origin": "https://github.com/MMStar-Benchmark/MMStar"},
+    "BLINK": {"repo": "BLINK-Benchmark/BLINK", "revision": "a3666eb249237ba3d5eca8db21176cc47967e040", "files": ["Counting/val-00000-of-00001.parquet", "Spatial_Relation/val-00000-of-00001.parquet", "Relative_Depth/val-00000-of-00001.parquet", "Multi-view_Reasoning/val-00000-of-00001.parquet"], "split": "val", "origin": "https://github.com/zeyofu/BLINK_Benchmark"},
+    "OCRBench": {"repo": "echo840/OCRBench", "revision": "92a54bd1384387c178d5a07140a2d85e0a3d12e1", "files": ["data/test-00000-of-00001.parquet"], "split": "test", "origin": "https://github.com/qywh2023/OCRbench"},
+    "ChartQA": {"repo": "HuggingFaceM4/ChartQA", "revision": "b605b6e08b57faf4359aeb2fe6a3ca595f99b6c5", "files": ["data/test-00000-of-00001-e2cd0b7a0f9eb20d.parquet"], "split": "test", "origin": "https://github.com/vis-nlp/ChartQA"},
+    "POPE": {"repo": "lmms-lab/POPE", "revision": "4db1276663dfa5eb8ad16a52d24c31a09e470896", "files": ["Full/random-00000-of-00001.parquet", "Full/popular-00000-of-00001.parquet", "Full/adversarial-00000-of-00001.parquet"], "split": "Full/random,popular,adversarial", "origin": "https://github.com/RUCAIBox/POPE"},
+    "MVBench": {"repo": "OpenGVLab/MVBench", "revision": "230a2d4fac8900333c61754641c7a13e069ac9c6", "files": ["json/action_antonym.json", "json/fine_grained_action.json", "json/egocentric_navigation.json", "video/ssv2_video.zip", "video/Moments_in_Time_Raw.zip", "video/vlnqa.zip"], "split": "public evaluation", "origin": "https://github.com/OpenGVLab/Ask-Anything/tree/main/video_chat2", "subtasks": ["action_antonym", "fine_grained_action", "egocentric_navigation"]}
+  }
+}

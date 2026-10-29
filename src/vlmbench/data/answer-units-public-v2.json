@@ -1,0 +1,1698 @@
+{
+  "schema": "vlm-chart-units-1",
+  "suite_sha256": "915a900034e4b3e63a14a5418ced5f3c27ede602382b8fc70ef168d577de520d",
+  "scope": "Unit metadata only, bound to original input and published references. No numeric label changes or exclusions. Bare numbers may use the published chart unit or base-unit convention where explicitly listed.",
+  "cases": {
+    "ChartQA:2271": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "2019柱5.1%，5.1按图中百分数单位理解。",
+      "evidence": "Previously inspected original chart; unit only, published reference values remain unchanged.",
+      "evidence_sha256": "7139dda9b4a8c6e3e0a80577733954617ae424ccf984976f0f52bd708e049e2f",
+      "input_sha256": "08a40c80a474c4e23210b3a7db881633cb7bdcdd49057bf6cfa711f787eb1c66",
+      "reference_sha256": "830b491a99917c4c440e9f169e55a86ad553431a0977f09116ccdef83b43e979",
+      "media_sha256": [
+        "85562c4844ef51797f6e614328c293c0e6ef170c96fe74d1ee337dd7107344dc"
+      ]
+    },
+    "ChartQA:1966": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "2016柱2.5%。",
+      "evidence": "Previously inspected original chart; unit only, published reference values remain unchanged.",
+      "evidence_sha256": "7139dda9b4a8c6e3e0a80577733954617ae424ccf984976f0f52bd708e049e2f",
+      "input_sha256": "a06e54d84fa261fd3900a71fb4039ad76d24b3b50f355b14a33ef9b706d898a8",
+      "reference_sha256": "2d6e57fb10501eb5f6143c6e9ae625621d0a235e5d8c7860066e9a86319a5e70",
+      "media_sha256": [
+        "778f22a6193e06efaf213c28f57b2d401738fc5721838956a1a0de31e0a99afc"
+      ]
+    },
+    "ChartQA:1607": {
+      "dimension": "GBP",
+      "reference_scale": 1000000000.0,
+      "reason": "2018柱20.81，轴单位十亿英镑。",
+      "evidence": "Previously inspected original chart; unit only, published reference values remain unchanged.",
+      "evidence_sha256": "7139dda9b4a8c6e3e0a80577733954617ae424ccf984976f0f52bd708e049e2f",
+      "input_sha256": "a769a870ecc8283fd716cdc039032efbee36f136fad2310b2db3a4f678b18c07",
+      "reference_sha256": "2767d873e59cfa01919d0a1d54d40c8b1dba2f25af6e927ef058533148e69228",
+      "media_sha256": [
+        "7e71890c52c1012ed313b4f966cb0944a25de6d3775d2043edfdfbb858579b88"
+      ],
+      "bare_scales": [
+        1000000000.0,
+        1
+      ]
+    },
+    "ChartQA:2336": {
+      "dimension": "USD",
+      "reference_scale": 1000000000.0,
+      "reason": "Stanley2010销售8.41，轴单位十亿美元。",
+      "evidence": "Previously inspected original chart; unit only, published reference values remain unchanged.",
+      "evidence_sha256": "7139dda9b4a8c6e3e0a80577733954617ae424ccf984976f0f52bd708e049e2f",
+      "input_sha256": "0cd6cb89597960dcd2588214c3e00a6be676dcbb50f8e167b49c1630504ed313",
+      "reference_sha256": "7ba3517c9d1d33e3ffb070bf0d590c99dbf941653155595c031ca0c29b215100",
+      "media_sha256": [
+        "d2a9a9dc69996a6acf59e12cc048a26db69ce30c6007a6ff072cfa3a1f8e0dc0"
+      ],
+      "bare_scales": [
+        1000000000.0,
+        1
+      ]
+    },
+    "ChartQA:1207": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "不舒服38%加不知道9%=47%。",
+      "evidence": "Previously inspected original chart; unit only, published reference values remain unchanged.",
+      "evidence_sha256": "7139dda9b4a8c6e3e0a80577733954617ae424ccf984976f0f52bd708e049e2f",
+      "input_sha256": "830e9a475eee31d12f4a4d31e9c1b3bcc82273ffffc32d9422c2f81112ce6922",
+      "reference_sha256": "01cee35efe2ffe264776408d42f4fb61c42ad7f38d1c94e148d8bdb7eadaf8d2",
+      "media_sha256": [
+        "f59f473c4483ac83485eb2a7c25b503290e3957a66a6d458fc03a0a5206f4795"
+      ]
+    },
+    "ChartQA:1502": {
+      "dimension": "USD",
+      "reference_scale": 1000000.0,
+      "reason": "2021为1055百万美元，与1.055十亿美元等价。",
+      "evidence": "Previously inspected original chart; unit only, published reference values remain unchanged.",
+      "evidence_sha256": "7139dda9b4a8c6e3e0a80577733954617ae424ccf984976f0f52bd708e049e2f",
+      "input_sha256": "d22a2da37b6c99dfa1e6730091aabc933dd17accc3fc49a6bb5d221fb7fa0a17",
+      "reference_sha256": "dac143c16daa51118d5f624d59657896544d3fceda0cf697374df9fc8af9a459",
+      "media_sha256": [
+        "6a5998f4ed2bdee9d10b8acf1c39aadfb28fcb59d6cd6805afef8024f79b55da"
+      ],
+      "bare_scales": [
+        1000000.0,
+        1
+      ]
+    },
+    "ChartQA:2012": {
+      "dimension": "USD",
+      "reference_scale": 1,
+      "reason": "Oslo柱19.14美元。",
+      "evidence": "Previously inspected original chart; unit only, published reference values remain unchanged.",
+      "evidence_sha256": "7139dda9b4a8c6e3e0a80577733954617ae424ccf984976f0f52bd708e049e2f",
+      "input_sha256": "1bf5ff1f7301c88de17f0e8ff85be40d992ae07239baadb7b34d1e2fe4fa29d6",
+      "reference_sha256": "bdf32d9e91deed603ed641fa1ef680c0e6a262b23d6f12e3aae121f987006849",
+      "media_sha256": [
+        "306d7fce05696a5ccb1c64b20199d20802ef4b47065d99559eb3e214df09208d"
+      ]
+    },
+    "ChartQA:1": {
+      "dimension": "index",
+      "reference_scale": 1,
+      "reason": "Lamb103.70减Corn103.13=0.57；保留既有5%相对容差，0.6误差5.26%不通过。",
+      "evidence": "Previously inspected original chart; unit only, published reference values remain unchanged.",
+      "evidence_sha256": "7139dda9b4a8c6e3e0a80577733954617ae424ccf984976f0f52bd708e049e2f",
+      "input_sha256": "d8ad9ce9832e7a1b975f74ecb885197f12eb9e72ee058852fb8ab939115b5fab",
+      "reference_sha256": "494eb720c546c3864012a6fbab5f043b17b278080ac95fbbcd83910d13e70aa8",
+      "media_sha256": [
+        "b986643f98b6195fa7176bb6591d256daa4dfb906ea706d4f487c123ff3486ad"
+      ]
+    },
+    "ChartQA:2229": {
+      "dimension": "count",
+      "reference_scale": 1,
+      "reason": "2018为19 921床，千位分隔不改变数值。",
+      "evidence": "Previously inspected original chart; unit only, published reference values remain unchanged.",
+      "evidence_sha256": "7139dda9b4a8c6e3e0a80577733954617ae424ccf984976f0f52bd708e049e2f",
+      "input_sha256": "d7f8bb94ec5224effa3fd3d54e7312805be5ff48ab5cf0e83c4209065342ad5e",
+      "reference_sha256": "c634fd31f434faf0f2d35067fbbd7d9ab6e766d203fdfb550edc45da26382d7d",
+      "media_sha256": [
+        "0774ecdd8858ef03d344de6368e70c357741e1c31a5d40e69994affe4165b96e"
+      ]
+    },
+    "ChartQA:230": {
+      "dimension": "yield_tonne_ha",
+      "reference_scale": 1,
+      "reason": "最长条0.6吨/公顷。",
+      "evidence": "Previously inspected original chart; unit only, published reference values remain unchanged.",
+      "evidence_sha256": "7139dda9b4a8c6e3e0a80577733954617ae424ccf984976f0f52bd708e049e2f",
+      "input_sha256": "e2678ea22b656896e8122f3f7dd382a4459abfa547fcd62d4ed4b1984190a5bd",
+      "reference_sha256": "7c4d5880c066e85937f20e114ab77f54b46c02c3de190774e192ec86c90de25d",
+      "media_sha256": [
+        "9eff10e9fa76d04b002237213937157b3d3fb7ab531673beb0a165924ce3d25a"
+      ]
+    },
+    "ChartQA:2284": {
+      "dimension": "count",
+      "reference_scale": 1,
+      "reason": "2013柱282家。",
+      "evidence": "Previously inspected original chart; unit only, published reference values remain unchanged.",
+      "evidence_sha256": "7139dda9b4a8c6e3e0a80577733954617ae424ccf984976f0f52bd708e049e2f",
+      "input_sha256": "3a278a0dca2d856b5cd890318773a99aad8032004e8f5da9ecad284b272b6ffc",
+      "reference_sha256": "62fb9c1ac12ff929d3dcb26a8b3d1577a3684adf0feea8ad0861e08a43063573",
+      "media_sha256": [
+        "94f34618974c7d3a75b4fe7a988fd6ea0a6a602d8c5b88f9650ed746c1af3ff5"
+      ]
+    },
+    "ChartQA:2255": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "2020点41.78%。",
+      "evidence": "Previously inspected original chart; unit only, published reference values remain unchanged.",
+      "evidence_sha256": "7139dda9b4a8c6e3e0a80577733954617ae424ccf984976f0f52bd708e049e2f",
+      "input_sha256": "f1cf402e5d7f103912c008f4e16c37802e906d9bb21ba60ca8b9a50048d4db39",
+      "reference_sha256": "25bdaaea642fa4753c49199a124f2b02c72eecb7709a642b3480187497ea7d76",
+      "media_sha256": [
+        "bd1e142a3237e486f170e65718ef704257526f690528449c56f33478bd9d06ef"
+      ]
+    },
+    "ChartQA:819": {
+      "dimension": "count",
+      "reference_scale": 1000000.0,
+      "reason": "前五类均值21.98，中位18.6，差3.38；图轴为百万用户，题目percent误称不影响要求的数值运算。",
+      "evidence": "Previously inspected original chart; unit only, published reference values remain unchanged.",
+      "evidence_sha256": "7139dda9b4a8c6e3e0a80577733954617ae424ccf984976f0f52bd708e049e2f",
+      "input_sha256": "90c28da9c8ed3f0fb72e71606bcee03ec0e690145841bd97d7ef80c544a58dd8",
+      "reference_sha256": "e2daf0f085ed0f8476571f87e010553e99395597ecd9dfb4103bbb19106aa6a0",
+      "media_sha256": [
+        "201f3b178555545150f6d031cbcfbd8f408cebb969d631e70a21d3756461bc2b"
+      ],
+      "bare_scales": [
+        1000000.0,
+        1
+      ]
+    },
+    "ChartQA:1634": {
+      "dimension": "count",
+      "reference_scale": 1000000.0,
+      "reason": "COD Mobile柱250，单位百万次。",
+      "evidence": "Previously inspected original chart; unit only, published reference values remain unchanged.",
+      "evidence_sha256": "7139dda9b4a8c6e3e0a80577733954617ae424ccf984976f0f52bd708e049e2f",
+      "input_sha256": "ec970af246485705de46448a9454ca1e07fea3d860408ca44a3d130dad628bbc",
+      "reference_sha256": "3c4f7493021a741138fa438ddaa83661466a062ef8902704c9a52721d97cb775",
+      "media_sha256": [
+        "b46d7b4c1fe0b7d97076748279075be54b831ea4bedd99a07f3841d89d8ddc9a"
+      ],
+      "bare_scales": [
+        1000000.0,
+        1
+      ]
+    },
+    "ChartQA:120": {
+      "dimension": "ratio",
+      "reference_scale": 1,
+      "reason": "灰色Not too最大段为30%，比例0.3；图中裸30按百分数理解。",
+      "evidence": "Previously inspected original chart; unit only, published reference values remain unchanged.",
+      "evidence_sha256": "7139dda9b4a8c6e3e0a80577733954617ae424ccf984976f0f52bd708e049e2f",
+      "input_sha256": "5222a7a1056010fb5b69239d7d072e8e534a1373f40c8d3cdc886fa504b8fd3c",
+      "reference_sha256": "6328b6c4c7db9433fdb995a8c3fc6aadc860d5c64eb28860b450563b27da5d56",
+      "media_sha256": [
+        "26ce8879dc2b77cd5c22cd1f79731be53af2a5c1bb7d2375da4527fc21af5140"
+      ],
+      "bare_scales": [
+        1,
+        0.01
+      ]
+    },
+    "ChartQA:1267": {
+      "dimension": "ratio",
+      "reference_scale": 0.001,
+      "reason": "2010男性已婚柱633，单位每千人。",
+      "evidence": "Previously inspected original chart; unit only, published reference values remain unchanged.",
+      "evidence_sha256": "7139dda9b4a8c6e3e0a80577733954617ae424ccf984976f0f52bd708e049e2f",
+      "input_sha256": "65b1be3e2de9bc134465b2156e96d871e904a1bc9ce9ab48179c45b7ba3ace39",
+      "reference_sha256": "c8970e0f361b16f65b0679539e345b2e131de53aea062ba521399da86139bd64",
+      "media_sha256": [
+        "b04172a5077fda4f01b41ec43559c997bc1a47dc91de729438d54d362bae6c1b"
+      ]
+    },
+    "ChartQA:145": {
+      "dimension": "count",
+      "reference_scale": 1,
+      "reason": "蓝线56在2011、2012、2015三处。",
+      "evidence": "Previously inspected original chart; unit only, published reference values remain unchanged.",
+      "evidence_sha256": "7139dda9b4a8c6e3e0a80577733954617ae424ccf984976f0f52bd708e049e2f",
+      "input_sha256": "d8d6fd7321fb888acd6c5227b11e01b34af9463dccbb1f24f83071198015437a",
+      "reference_sha256": "ac8e6a09b10eacdefefcce631c3a13073ae1c8e1de2693babf2fa5b93c176565",
+      "media_sha256": [
+        "6b27b909e4345a0901f329e650114e5f38ee96dbbfcf1c913985684ab6b27517"
+      ]
+    },
+    "ChartQA:2382": {
+      "dimension": "count",
+      "reference_scale": 1000000.0,
+      "reason": "2012柱53.03，单位百万。",
+      "evidence": "Previously inspected original chart; unit only, published reference values remain unchanged.",
+      "evidence_sha256": "7139dda9b4a8c6e3e0a80577733954617ae424ccf984976f0f52bd708e049e2f",
+      "input_sha256": "638495d5367527d39f61c387f1f38d674b78b0afa8392b16f2a0e5bb875183cb",
+      "reference_sha256": "a9ab631b2c23c0b4ec7d26706284455f54d8128476475a868cd8630e8d533922",
+      "media_sha256": [
+        "6c27b8ec02554e1a4b07b6f34a62f5f9c13f7955e06da4ba956d88ca83c30736"
+      ],
+      "bare_scales": [
+        1000000.0,
+        1
+      ]
+    },
+    "ChartQA:39": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "48b538c2e3940da648d89ef07150398f99c616f491f7a0e64efbaacc207028b2",
+      "reference_sha256": "31c3a1ed61b50ce4ff2f303b27aee171110773ebfe632a772fe192e5928d178a",
+      "media_sha256": [
+        "9d8c0f65583c8e2ea207f31d64919f5e744ec62f9369572e004a89cc9ac4ccb7"
+      ]
+    },
+    "ChartQA:70": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "4575d1563ad706143b8d586ec6223ab632fc57db7ed6843355c27f4e39ebdc19",
+      "reference_sha256": "22a4ed2a6b9dad077f4b09248473908123265fc13087bc6044214328f2ea2a98",
+      "media_sha256": [
+        "c98ed8457f47094bacff20d6c1857fad8d9962debffe5fa9cad24f94b8cad510"
+      ]
+    },
+    "ChartQA:74": {
+      "dimension": "ratio",
+      "reference_scale": 1,
+      "reason": "Axis shows 302.38%; published 3.0238 is its fraction representation.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "db66cc5bb8a5deef8600e201f9b1ac900763a60451fa8f6780b066f60e6ea05d",
+      "reference_sha256": "e6cf5ecb3609c8295b5529fd99fdf25d174799e7ccb967547c65ea0f7eedaba6",
+      "media_sha256": [
+        "5c83bbf7a5a74948a365fab303278ffccb801ae61eb1741efea77b7b098ba559"
+      ],
+      "bare_scales": [
+        1,
+        0.01
+      ]
+    },
+    "ChartQA:104": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart subtitle: % who regularly watch.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "1320e57cd360c52f5d796c8c224e075cf1335b9c64efd4749508bbdd075b482a",
+      "reference_sha256": "3910a1a1298691d52a9666a9a20053793465df36de95be16948c8579eda2fd8e",
+      "media_sha256": [
+        "16e0981aec402f2205ee1a89491fd02abc7a1fe1021af6d9c826c77566fb4126"
+      ]
+    },
+    "ChartQA:164": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "8377a93462e0129890e9ccea6102162947d46be7cabc529cf17886a31642efdb",
+      "reference_sha256": "8688b27740e0a7e0b8053645bf90e54b9ae3e357bf1c3b0f15ad82fd09492a7b",
+      "media_sha256": [
+        "0215c3ffe11c26dc88b060c87eb6396292a4101c252fab3f64f38c414067dbfd"
+      ]
+    },
+    "ChartQA:176": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "1dd57178a1a700e8d43dc918ac0487b404d3ddc2fd581bec6a17ec218d31abbc",
+      "reference_sha256": "ddba825e5f21948f963138d923d67aaf42a2fd81fb5665623bc0b0a221653808",
+      "media_sha256": [
+        "8be711ec8315a5bcb9d65d7685a1fc6c8021b215d57c2b24d331856d3cfa6821"
+      ]
+    },
+    "ChartQA:179": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "520c280acba08d5cdd3d65047ba11d30a737174ef9435dbcc3346b8612489f8a",
+      "reference_sha256": "7631c504c214b2b5a1625760f157f4f7a128cc2fa4287a199c7b7d6a553764f2",
+      "media_sha256": [
+        "2a5f5c23cf21bb74a8030b3dded85d1eb482217a0b4ba3c64c8b03403ecdd55f"
+      ]
+    },
+    "ChartQA:245": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "7c535a4da107a8b0384f27c867fa0fe9c616105da4e796358bfc451ee97bd484",
+      "reference_sha256": "cd7bc7b02f02ba3a689bfd9ef90e0e82bed4738e5431d983b8466a36783daf44",
+      "media_sha256": [
+        "b9b2e31a316e9f2e978557294a843ed5c1b876ecb352566135246a9687dbf0ad"
+      ]
+    },
+    "ChartQA:375": {
+      "dimension": "year",
+      "reference_scale": 1,
+      "reason": "Years shown on vertical axis; question requests duration.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "bcb58cf440803801e31dd6a9668d0296255b4b4a351add0c257314dd9d712e7c",
+      "reference_sha256": "fdfcfcdb9ba41c4a4d13b7a49a1f472fabb154a2e7af5f5cb2cb8dd95ae53547",
+      "media_sha256": [
+        "0e8df0ed2d4469b16d1df668dc5bfd78be6a8b3f43500d52a77b0692f0ccd0b7"
+      ]
+    },
+    "ChartQA:479": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Title/description explicitly says percentage saying gun laws should be stricter.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "7317c7de3b8b2662c9f94febf13d2a3956fd4027fd3984e35e2ba95a71308ad7",
+      "reference_sha256": "f06027b81e29e20423bb27b215eb65f57c07952bf874814867340b958cd52d5e",
+      "media_sha256": [
+        "250166df14e4898fb31db5defff6f1c79d783a4b1a72496012897889ca639401"
+      ]
+    },
+    "ChartQA:492": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "eb940cb18716e0f84a3caa4b82799fdf7911bb5133c8a22430c62ba3426de6b7",
+      "reference_sha256": "8fb1def6c72894a3f2ff8bea3774c2330468a62e7f2c8e0462a5321052d5f3d4",
+      "media_sha256": [
+        "2eb045e6d9b3cba4a24925659f218a8392e25eb7320dbc42123b285cfe439129"
+      ]
+    },
+    "ChartQA:515": {
+      "dimension": "area_ha",
+      "reference_scale": 1000000,
+      "reason": "Title says thousand hectares; bars 213k and 62k differ by 151k thousand hectares.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "abbreviation_scale_multiplier": {
+        "k": 1000
+      },
+      "input_sha256": "3f5e15a3614720bad111163f1d25ed56c6437631577fe22075132c5c470505eb",
+      "reference_sha256": "35e57fc2f979ac0fcb67185d28672eff4ccd3b0d3af372ce6c77b62d8be77c4d",
+      "media_sha256": [
+        "bc9f6db77f40545b50bdbcecc554f0dec7959fa06390d5ce767abac3b6d7d578"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:569": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "6d44986eb685a7691b7fdf43ebed4c32dccb3a8384bc3c4e609a26ae9c40aa59",
+      "reference_sha256": "016a7333783afa05aa006e4b403d09fc6c415f99d28901e7e8173da719a03d1d",
+      "media_sha256": [
+        "b0d0e658affc7e6ab19d4923e9a4a8eca2f5306d1b6b4434184849da9e869a5c"
+      ]
+    },
+    "ChartQA:607": {
+      "dimension": "USD",
+      "reference_scale": 1000000000,
+      "reason": "Axis: Revenue in billion U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "f53cc5a949dafa7a982800501b68b6dca024519aa4555ff931cbc5f26ddcddc0",
+      "reference_sha256": "7171ea2fff5913f4f7855df40ed14386c9f53d63a2a1ba1489fb018292bfee39",
+      "media_sha256": [
+        "8dfbcc2109888ed1a2d3a745c57c9ef89df89096888ea7db539b480313347ec4"
+      ],
+      "bare_scales": [
+        1000000000,
+        1
+      ]
+    },
+    "ChartQA:616": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "0759dabf5eb3536a52cbd8b84adb4b7dba6ec140d7abe6713d80ad443f21f2a9",
+      "reference_sha256": "52762eafa2992b642a0ab2421f26eee4f48b7fd1fa48f3a96abefc36f9d89765",
+      "media_sha256": [
+        "30085501388f1a1596d0791c21f8f8b1d3a28803279083a73fce0d0a346ca021"
+      ]
+    },
+    "ChartQA:622": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "af3c89ee636bf400436a6ad00cd2329ffddd94ab70fc8900283eddd3a95dddb5",
+      "reference_sha256": "bed688fd89cf77aad44b516da8b08cd27a314599aa97ad0f2e24511c40c10d7b",
+      "media_sha256": [
+        "ede882f24c93f3c19a4f307aa4b203663e29a952f43439bc6d19a9427c2ef395"
+      ]
+    },
+    "ChartQA:626": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "01e2f27cdf388e3415e473d0cf946dcfc7d774a12725c1814a69c3df2c7349f3",
+      "reference_sha256": "ef66bf75ab5711bb9e892c6b31f2c2ba37d0419cb319ff2cad33d75c0dce12c3",
+      "media_sha256": [
+        "f0b4d2d2a131498096d66d2036da55f330a8dbe533bfb648846a6456e7b135e4"
+      ]
+    },
+    "ChartQA:697": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "73a636bfc3d256b166be8c6961b929548cb39576c350c68b2495c37b399d5b7b",
+      "reference_sha256": "24e5891a6f01dcdadd647bd636ebe27f9d0d521efefeaf89d1e00f7799383a9c",
+      "media_sha256": [
+        "5d162496f60ca6c9068baeeb178d436aea041f120d7f7f9275a7f88da8ef84a2"
+      ]
+    },
+    "ChartQA:702": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "4de66dc74ef3ca8bcff83fdda701a43cf8cdde25687152c6e38db4684706f91f",
+      "reference_sha256": "ecab00a4988db32b1832b8931b11b77d833d097c569ef58f5099befbf77a7e0c",
+      "media_sha256": [
+        "f7b69f7ef9bb6b0fe9924737d8aa56b2a69b524cc3ab0585085de8ef3115448b"
+      ]
+    },
+    "ChartQA:708": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "dab2aed4176757618b8234db34966807a05191ea865734664e81538a21987223",
+      "reference_sha256": "2bf360046a5e39a2f7e350ea8188bc1a3f0112b65096c5a6487c7b773c4a4dc0",
+      "media_sha256": [
+        "f93318dd3fe665ce7c461363dfb47537735a4c2df55489a1b0ddb4f71794f575"
+      ]
+    },
+    "ChartQA:766": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "7487b8bbaf39bcb95ec92da3035c02b05bcce4b67935a4bec4640c6a07a43c53",
+      "reference_sha256": "cac7c08f185627eceaaf3a18f8bc72a8697b9e5b6178205bd96c362b114b7450",
+      "media_sha256": [
+        "58d2d4072a2234b1fbc27ba959bf2738bc335b6c6201eea6f3ecae3b073a1bb6"
+      ]
+    },
+    "ChartQA:813": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "fcad2fb8583ec5e8b76baa6ff5b4b8b4ccaa2ba0cff632a7eecb34a9d3111331",
+      "reference_sha256": "f8e5f3ea71fa016b88a5a676173836e9fef26fda7c12b968ec8d056775e38725",
+      "media_sha256": [
+        "cf608adadb1a419c87c162b43e9e62ebb7fc8231da3a107372ef85eceef251de"
+      ]
+    },
+    "ChartQA:877": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "d512a2faa964181af2784234d125e306114a72b5f6249c26751154aad68bdcfa",
+      "reference_sha256": "36316e5b758f39d7546da41823ec575e8b8ab691fe407d15684d0c671e14d454",
+      "media_sha256": [
+        "0612c89adc5cabddcf6749f95649c453902aa8ad99e7b78a2cf42727f479fb30"
+      ]
+    },
+    "ChartQA:888": {
+      "dimension": "USD",
+      "reference_scale": 1000000,
+      "reason": "Axis: Net revenue in million U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "3fd93e8f46635dd6a42645bc3b32517a6addccc5c4ee6167762c9be850eff5ce",
+      "reference_sha256": "dcde6993ce7774743a0057c90c3d1d12821913d86b9646813a5ad9dfca7063ec",
+      "media_sha256": [
+        "8b34791b89be20891cbc11ed21cfbe869fc2ad6d056d55a45a4a44fd19c0b08c"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:901": {
+      "dimension": "USD",
+      "reference_scale": 1000000,
+      "reason": "Axis: Sales value in million U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "5dd941d611783be088508e43ea32002f5233c98afc7cebf3bffdf4728e49282a",
+      "reference_sha256": "a6c722d5554ab296dce639cae6d87de3c7ec779fc7e153ae3f8d5f3e436dc995",
+      "media_sha256": [
+        "c18dbc9380de439fa552d64e9132add1d747ab7679bdc83c5557330fab0da3df"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:926": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "2f0e5131f141dd5cc18fae0cd11fba918ec9e974a61df7d32e95cb7fb51933aa",
+      "reference_sha256": "e38e2aa7da875518309cd727dea3f9c5c6b214d470e2c22a359812812b431b56",
+      "media_sha256": [
+        "c83e3cb38d28288a7277cea16c2de137c133302d1766730ae45db900775a6bf2"
+      ]
+    },
+    "ChartQA:946": {
+      "dimension": "USD",
+      "reference_scale": 1000000,
+      "reason": "Axis: Sales in million U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "4ee0d2e33d3d7d18ebd9a7a1e7f78756a4688e11a4bbd60a4c97089c825c7f2f",
+      "reference_sha256": "32e0762d4bf99fa18a216d0373bf1c30b7cb26beb006fb743805cc60f1cb23d5",
+      "media_sha256": [
+        "9e3dc572e95baace0037a3b726026da4379495cf26cb9a2330a4debc57423401"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1011": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "1d803a50da75d51000f8254d5b5f988968ef301e6bb1dd7df3df64aa558818e8",
+      "reference_sha256": "c36f64f748f0eb307432d01566069958fa8ad9b487244cdf326d5e249ef325c4",
+      "media_sha256": [
+        "d163e0685b3e976014928265586cb3de7f74c8dfea6824793cee8428c807c938"
+      ]
+    },
+    "ChartQA:1030": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "631c1607adfd280e8716dc5b53e496c5b8a98768edcc535fad346d5a29664fc7",
+      "reference_sha256": "06ec1dea0ef7eaec317eb5d14c791444c160d5e3d298310378d5fdc9bdfced10",
+      "media_sha256": [
+        "fef628c4fcb449ac99c42253e967b94c418f226637b0b046a51e2e7e373be9e0"
+      ]
+    },
+    "ChartQA:1039": {
+      "dimension": "count",
+      "reference_scale": 1000000,
+      "reason": "Axis: Inhabitants in millions.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "5126e72cca277ed5a7b0f9653d9a09903192298fcc97759e40cd31a5cffbd49a",
+      "reference_sha256": "e9e90db831e44c7c0bfcb826e662a9a54dac4fc68431339d32cd1fe3e9605bdb",
+      "media_sha256": [
+        "a3215fa26342a4a33aa3f9697af1cafa1deba825ef301a10a87644b56ff34a01"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1048": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "a93eda46fa55dbff972c6ac23e1b76ef982fab39db7cde73e70e0bfed3d79d72",
+      "reference_sha256": "a9239d776e83dede5dbfdc7f5593e5041f10209d100b9e5ecf27a3fb8aae2445",
+      "media_sha256": [
+        "195c53ef17e90664d4a57329705fa4e99f05356ede4bfcde670f114d4a9edb99"
+      ]
+    },
+    "ChartQA:1067": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "0102ee68dbcb8f9bf8f051ca73d8f67f9473e75bb19782c836ea69fe78adaa1b",
+      "reference_sha256": "be2dc0940703eac2d69de90002a384dcaa1c5fd0bf6c486c5f96e356c28b5984",
+      "media_sha256": [
+        "031c051afa0ccdc304b4c5620ea7045cffc1a9008963fcb98c61dcc7b5b64469"
+      ]
+    },
+    "ChartQA:1077": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Axis: Percentage of respondents.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "e38f9083a26bd4bbd738379d40987cd90a70d3ffda23b20638cbcb133759f49f",
+      "reference_sha256": "b097c79f2c7d467224f04c7f8111402411461f50d8fae38d37364a9a3c264431",
+      "media_sha256": [
+        "11dbd11b005d983b193ee446457a6507baa1e1f227ff1fae2255819f5fdd1bae"
+      ]
+    },
+    "ChartQA:1127": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Axis: Share of respondents (%)",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "677aec8fdd02a1ad5d3cdf0873a4bc44a7e98f8061f9528f35acfe4a516a1730",
+      "reference_sha256": "c73e60ceb2eb8a3227bef4b473ac439ed3cbfa3b0150c4ee5cc03dd60c3904bd",
+      "media_sha256": [
+        "4258391a16793156cda468aaf251725ec7942ef3cf10c0a9e27b45c9d5622ac2"
+      ]
+    },
+    "ChartQA:1137": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Axis: Share of individuals (%).",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "1b3bcb770be0cc6f6c335551b5fa76c646efcb18598923e045877e76b2f2385f",
+      "reference_sha256": "c6f04c1e801359f4d580f8e4cf7a4a917c5e96055b076e17708837be64827fa0",
+      "media_sha256": [
+        "ee2409c61d26d4eefd1398e82d8d240c125d90d6c31915c2efef3d647b40e684"
+      ]
+    },
+    "ChartQA:1182": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "85f9c86586d88ad001c29edf5154d3f35d7a782505fea00add9a1857fcac769a",
+      "reference_sha256": "94a2bdf5c96578fca973a98a01985edcbe0e36b3931dfef8e5f800ddb7fafaaa",
+      "media_sha256": [
+        "18f77a73f8e2a715aed961609a504a780cff2bc8b0f59da3a85179b4edb52e63"
+      ]
+    },
+    "ChartQA:1185": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "14459820b94952b28dcdbcfd20d9bf8e3cb7d94efdf74d095bacc73360b56e61",
+      "reference_sha256": "093496f81185246412e2208165fac838bf933e5d2016351eb8caced4818e77ff",
+      "media_sha256": [
+        "ee9dc023ae972390ef201f9889665ea5aa9400e6d1469ca19684e256301e2ce0"
+      ]
+    },
+    "ChartQA:1235": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "6330b10d00dcd28231e73b01dc724f27e19d8538bf8b994790967606878ceb03",
+      "reference_sha256": "6c057995d64cb9ac83555572116dcd79bedf47aa0ff750b3b2fb57a0665b9bd7",
+      "media_sha256": [
+        "a6ffbbff773ba60ae808a3bf8dc765c4e69b31733c42228f7c8b7d035b1dd5e3"
+      ]
+    },
+    "ChartQA:1338": {
+      "dimension": "EUR",
+      "reference_scale": 1,
+      "reason": "Axis: Average annual wages in euros.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "bb2b5a7713ca7998710646ff206c4c179a67cfaa72507d0d40b22f8b949c7399",
+      "reference_sha256": "0bbf00e1dccf26d82f714ca315c3146bd5e30e508b9312a50ac3d4b5243b72d5",
+      "media_sha256": [
+        "2213242bd4ef81427c5d88760c8df2d65a8b288a8b50b2e171b969cce648c4d5"
+      ]
+    },
+    "ChartQA:1353": {
+      "dimension": "USD",
+      "reference_scale": 1000000,
+      "reason": "Axis: Consumption in million U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "b554308e87faa2d1f7ea144bb80c179cc9a7430e46c3f93b78e7112640f84152",
+      "reference_sha256": "8040fb982e62c9931c3af03ef9fc2356baf11432180a54f6d2b59d08c483aa37",
+      "media_sha256": [
+        "e0c90379d7fa8f231e3ec469df0a083161d99c6e068ab66cf999f7421b1d155f"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1357": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "32e425f376dc7d29e2e69c277bf8182bd47bbfd0e660652b2cd0dfa8b8868905",
+      "reference_sha256": "65edb4aefe0c07d8a9f086268da80b96465803cddf529bb6ea9389f9c47f41cc",
+      "media_sha256": [
+        "b0fad25f3f02528a4e4018d5df3958a58003fca1a5d152eeb2c0ec5ab3591776"
+      ]
+    },
+    "ChartQA:1379": {
+      "dimension": "USD",
+      "reference_scale": 1000000,
+      "reason": "Axis: Sales in million U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "290291a69dd28d5aad526bc28be323ff1bffceb6ee725a7ef040ffc469a42f62",
+      "reference_sha256": "3c5629080f6faaf716306517ef227b292f563e9cd4b8c6599a7da926eb820333",
+      "media_sha256": [
+        "9e3dc572e95baace0037a3b726026da4379495cf26cb9a2330a4debc57423401"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1397": {
+      "dimension": "count",
+      "reference_scale": 1000000000,
+      "reason": "Axis: Views in billions.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "dbc5a756e9d8f92d51b19f342e3ef14501b273620825696a089a2696fe469565",
+      "reference_sha256": "536beb84948800069d2fcb25d10af93b62f61f20a33293ad0d82959457d57cea",
+      "media_sha256": [
+        "71f7acc887d24b773afc05689f38f829fb066b085de3f57ca2bfcaff1ed9044f"
+      ],
+      "bare_scales": [
+        1000000000,
+        1
+      ]
+    },
+    "ChartQA:1409": {
+      "dimension": "EUR",
+      "reference_scale": 1000000,
+      "reason": "Axis: Revenue in million EUR.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "bc5967cff878760342dadccd81e38b8658832f6aa93010bee94ccb5275338b4c",
+      "reference_sha256": "0ee3fdb3c0cae3515f39ee986446c17bf1ed5a13213304e53997b6b891866acd",
+      "media_sha256": [
+        "640a18108264e3e442484d9683fe16058a6cdcfb2d4167dc299d2330ec9eec1e"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1431": {
+      "dimension": "USD",
+      "reference_scale": 1000000000,
+      "reason": "Axis: Real GDP in billion U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "6a5fa69ab4bcf0e3fb73259c5ad0145a96c32d8c602c6243a9719c610ae6f801",
+      "reference_sha256": "54223719dcd38a2464aa229c56dbd3f1ce42d6ed5041c49667545b0441c0b8e4",
+      "media_sha256": [
+        "b4a9db8b21144cf7a7be7d5a219f3fddf3d30c0af45fc84c55a3c1c29a09a2ad"
+      ],
+      "bare_scales": [
+        1000000000,
+        1
+      ]
+    },
+    "ChartQA:1432": {
+      "dimension": "count",
+      "reference_scale": 1000000,
+      "reason": "Axis: Number of arrivals in millions.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "50f9c593d6171df08b8d0a1512d7bcb60baaa5aad72d9301ace0187a676d27f2",
+      "reference_sha256": "330c113462a8edd7f213f556daa46837cacfe78443b7acca998b90ad25ca7a36",
+      "media_sha256": [
+        "1be78a9577d95af59a0719a047e8e7b2966744d595b9bcbb74fbe80dcd00ab23"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1476": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "ee4cd06727c611d71d525853c5a0668054cea5e242f0419dfbb10af03084f6c8",
+      "reference_sha256": "42800e6b8cd51b471455f5de2a529e1c4c522cc83aadb384be60b581aafc8dea",
+      "media_sha256": [
+        "f039ca9939bc86c75329806320cea55b842139e183f710f411b3abf8ac961e74"
+      ]
+    },
+    "ChartQA:1489": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "8b2b8604d22e10db6ce70a6b6755b1fa0278e31c40a0bee736765fb5144504ab",
+      "reference_sha256": "67a224ee9980def999e1fb4b249a477aef44020fc1394328193fe492386e2713",
+      "media_sha256": [
+        "95978bb67bf358bb269fb55d5d273776d01ed7ba8dd416e8d2870865023b9e8a"
+      ]
+    },
+    "ChartQA:1492": {
+      "dimension": "count",
+      "reference_scale": 1000000,
+      "reason": "Axis: Inhabitants in millions.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "84ddddf457617367e6ccff010ff834428c5f0c1b736e4b88206f0a3bc85d3b2e",
+      "reference_sha256": "369c7771504c123e14eb81cb253e03d2ea9066c420db7404c7df563988f74fa2",
+      "media_sha256": [
+        "b2b5fa130a5d507f80455d4e580ea1fba28b81563955325d2cbcd5b73c537ee4"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1497": {
+      "dimension": "USD",
+      "reference_scale": 1000000000,
+      "reason": "Axis: Market in billion U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "2e59bbf9b54845b61c476c2a029d0c744644461396aeb59b947c6bec8c30396a",
+      "reference_sha256": "b457fa81a4469a4a851c406a101209bd0e563561472fbe9687357840f040e3f9",
+      "media_sha256": [
+        "0cbcd6ea27dad8bca36ba273cf78545aad94bff85ae091082dd5f7b8099ef3de"
+      ],
+      "bare_scales": [
+        1000000000,
+        1
+      ]
+    },
+    "ChartQA:1510": {
+      "dimension": "EUR",
+      "reference_scale": 1000000000000,
+      "reason": "Axis: GDP in trillion euros.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "33d760502daf003758afc71239e2bc393b69213196e6697d4f6161f277722798",
+      "reference_sha256": "73e165e742cc5e85a06128604c5538151dca501aafc170e7818d9029e9c95758",
+      "media_sha256": [
+        "9166371ce5902583da9dc70a4bc3c0b5cd0266e65ed933bc1037e2a34bb05f06"
+      ],
+      "bare_scales": [
+        1000000000000,
+        1
+      ]
+    },
+    "ChartQA:1523": {
+      "dimension": "count",
+      "reference_scale": 1000000,
+      "reason": "Axis: Viewers in millions.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "1b0ecbf169337399ea61dbfc37d4cee1ed6f73e33c55662454a98df3a794bf55",
+      "reference_sha256": "bc62ebeb7022f70d14784cca5a50bb1ed35e6ed91d3ed7afc4e77faa8bb5f47c",
+      "media_sha256": [
+        "0e3c6d6c0b7238105d5cd0506c852d8d40098970ac60d1fb3922d649395f404f"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1556": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "4568f08d7c249633639380419362cbaafb7d1ff5e19d4285f123651f61ad1785",
+      "reference_sha256": "93c3ecaa2cb4b814553ba50e01e35b914d01a3b17809ea4a2633e8a4bbc4e458",
+      "media_sha256": [
+        "5cdd608e58123cdeef647083dc9722d99c0533b48f8935e0425758b9da28bb96"
+      ]
+    },
+    "ChartQA:1564": {
+      "dimension": "mass_tonne",
+      "reference_scale": 1,
+      "reason": "X-axis: Volume in tonnes.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "1826ce0b0fdef5897a6b8c1218cef7c338d5c7a76c36bc135745b68cc90530f2",
+      "reference_sha256": "81a5c7affdd02e8c7e5549b1a7ed0f8f07915fb2dcd777bee73c33570103a267",
+      "media_sha256": [
+        "8af747ac3c4e67a51d8133a7035467782e528b1d1b9eab90b28f3d8f3d441e0e"
+      ]
+    },
+    "ChartQA:1572": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "a5266a652c5bb9afec151c19201d6093e3448d32709e6d9cfe40f1aeb028e117",
+      "reference_sha256": "eda63a42b8dcdcba4b7d92c52567db781189f9f29b8795a0be4240a9ef72418e",
+      "media_sha256": [
+        "485666a062023f89e76b6c83b95ca6da7e24fe048ddc4ae638541d0f60ed8e7a"
+      ]
+    },
+    "ChartQA:1574": {
+      "dimension": "EUR",
+      "reference_scale": 1000000,
+      "reason": "Y-axis: Millions of euros invested.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "0397f9379be7c7fbee86aa94b46727f0270b49d51909a56020e519e67b0d0964",
+      "reference_sha256": "69a3d1708540caf6a1c9aa0606a93cca53afb15de5fcfdfb4019a4447279cb6a",
+      "media_sha256": [
+        "ed7b55f3157403cc1a4c3038352f29e88561ea924d2372aba19b54f43e33a259"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1582": {
+      "dimension": "count",
+      "reference_scale": 1,
+      "reason": "Axis: Number of total scheduled aircraft departures, full counts.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "2be6a37cbf8897c3abccb354a1047ef7e341bba1a66cb52c7816211e4f92a2fd",
+      "reference_sha256": "6d7122ed68f791b24b9762c304861af0d965e26a239caf153ccf31976b1f9265",
+      "media_sha256": [
+        "c5701cf236ec40ecf227aef8e6c3f5b6e9a7bd0d4450df0e25aa2d4b94855ab6"
+      ]
+    },
+    "ChartQA:1600": {
+      "dimension": "USD",
+      "reference_scale": 1000000,
+      "reason": "Axis: Revenue in million U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "bf1bb220acd19873394a9096b796c95a3fbcf7613c74e26a5685e05740510d3a",
+      "reference_sha256": "00b5f76c7007f108e1e1145b5badce42d7cbb373c1c7e43642d63a3613927f01",
+      "media_sha256": [
+        "cde1e90d0ec248ef7c250b0af6b5b2736e589b5688474bdaf29c162137f7bdd2"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1603": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "b16acc75c12b160b0c317ab0524ea1e347dcf1cdb132941d68c2c0803bce3fbd",
+      "reference_sha256": "75a76d18d794e8f64680d30fb1ffa5e7df5a11f550c06a0c108c60c082b8c231",
+      "media_sha256": [
+        "f2ceff49942bf905fb0399d6e788a38de93c940b196a640b5da78a5e69c3e0e7"
+      ]
+    },
+    "ChartQA:1621": {
+      "dimension": "USD",
+      "reference_scale": 1000000,
+      "reason": "Axis: Million U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "760aeb193f42ce6d2b17a8fc74af8b6610fa1cd9c30c851b01495a99a7d80f54",
+      "reference_sha256": "e8b171d92ca35144ec49933dd8a01b9d65ed380f77f38808dd880fb6388acfa2",
+      "media_sha256": [
+        "c455b6bae7e29d518a58df575a7d43af66e6ce1e966f844e0c99a1039f646364"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1635": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "54b80d4c3b221397cbfda209d121a7d8763b7aa8f1fdc5d65fa64b325d38804e",
+      "reference_sha256": "646040869ccc2c55d4221fd013c1e62e1d905aee2ff7b9d4c7b66a22b34048ed",
+      "media_sha256": [
+        "dcd378f167c7720e13351c944c50c8ad86dbf9d1c56bb141f8ecb2f330e1ffda"
+      ]
+    },
+    "ChartQA:1650": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Axis: Share of companies fully executing the activity; question explicitly asks percentage.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "a9208b1359d699a6fc914c9cf509af0a7228c81fe356603e99d41216f017157b",
+      "reference_sha256": "44ebd05d74c1d21f9e98b1858494d79c3160d7b6fa369b7593121519c7c45659",
+      "media_sha256": [
+        "506a8ce69c436f558d1beb0deb4c8b40d4b0e41ed8503433be3ddf9cb2fdb991"
+      ]
+    },
+    "ChartQA:1664": {
+      "dimension": "JPY",
+      "reference_scale": 1000000000,
+      "reason": "Axis: Revenue in billion yen.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "1d91b35e7e74aae89e09b5499e53ea3f3aae996b05d75a1ba38b06eee2b6a177",
+      "reference_sha256": "9fa5614a9df49d7bde302f65c45471ea6f632df63729136b96ef3e227d45ab8f",
+      "media_sha256": [
+        "34499fda688d619853d94cc9d2072ef87fb56e294361a2a79bac32503afeaafc"
+      ],
+      "bare_scales": [
+        1000000000,
+        1
+      ]
+    },
+    "ChartQA:1677": {
+      "dimension": "mass_ounce",
+      "reference_scale": 1000000,
+      "reason": "Axis: Silver consumption in million ounces.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "bc945f7e9fa018c7255c3c643fd889d922ab7fb6597c7afba1665ce6da8c3d9b",
+      "reference_sha256": "5228f30575c86272cbd9e72fe85420e3b2edb4aa588cc882f12740f6dc9b8c79",
+      "media_sha256": [
+        "216fa2275e4843e7ed3725924cf58b00812da3c3c3fc86d5585cf653614a6f4c"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1698": {
+      "dimension": "count",
+      "reference_scale": 1000,
+      "reason": "Axis: Population in thousands; label 37190 is in thousands.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "a0480ced4d345856dee8b7caadfa43b152a0fa390369f24a63dc57f6804a0b9d",
+      "reference_sha256": "ce1a0b34275e42ee75ac0fe25b6f646db6fa95ac8a8ab8195042ff39a9351492",
+      "media_sha256": [
+        "05ed04501cc31e9a11eb72e16dd091984d7589609b15f8375be7745b080b0241"
+      ],
+      "bare_scales": [
+        1000,
+        1
+      ]
+    },
+    "ChartQA:1742": {
+      "dimension": "year",
+      "reference_scale": 1,
+      "reason": "Question requests year; x-axis has 2020 and 2027, retain published single-year label.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "aaecbaf8a8c9f0a36787595c9ea7cc3535ad850d7f75cf7d874c8fcfeb53c22e",
+      "reference_sha256": "726b884b7197e64a5e2ff2fbcd881db2c6a75d5c2034dba4376d0fc5be7764f4",
+      "media_sha256": [
+        "219002881def979bcdad8e00ee910e08aa7f10dbacd52d3b33faa6298c35ffb3"
+      ]
+    },
+    "ChartQA:1828": {
+      "dimension": "EUR",
+      "reference_scale": 1000000,
+      "reason": "Axis: Total investment in million euros.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "bbec347b8f19c8ee2d818610da1828fe6ccd727013094aea2b8bcb28452d8de2",
+      "reference_sha256": "9bb0d481cf34015b4cdd78d874ad8c889aea7c1a015e3204d1399bad8c6d9909",
+      "media_sha256": [
+        "6590336992646eb15b3d9ee42c3ac51ee7246a3317d2a1c12c68cca855fb9f82"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1829": {
+      "dimension": "EUR",
+      "reference_scale": 1000000,
+      "reason": "Axis: Total investment in million euros.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "d2d870c56f81ade7c62955744b5865e1c20be73b9652740c73b1962415da8a07",
+      "reference_sha256": "f0cde607f6248552400e3862b122c66a7568bdb613d19807dc54ef0cd834efd5",
+      "media_sha256": [
+        "6590336992646eb15b3d9ee42c3ac51ee7246a3317d2a1c12c68cca855fb9f82"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1833": {
+      "dimension": "USD",
+      "reference_scale": 1000000,
+      "reason": "Axis: Expenditure in million U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "8f454b6c874578d3c19937353c1d34eebdb60427aa806735092e5518199a7d87",
+      "reference_sha256": "bd6631617bfc9ba9b8895efb1157e35feac10f97c42daa8df3b0634e502d6f8d",
+      "media_sha256": [
+        "1871cef236b019269b7bba9e81582858a418bcabbbfd38ddc3ecae524d013432"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1892": {
+      "dimension": "USD",
+      "reference_scale": 1000000,
+      "reason": "Axis: Revenue in million U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "ed7fd4d20160faf9b589a9623f3392bf3f2266b099bf53d78683b74a723cac2a",
+      "reference_sha256": "179b1c2bb7f922e767364067c453208ecd3f8a42c8868765505f56ab8f3f3d35",
+      "media_sha256": [
+        "d87635a547ef14e6c47eb94fb034c277c72606cb34d939bac8467492101e756d"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1906": {
+      "dimension": "GBP",
+      "reference_scale": 1000000,
+      "reason": "Axis: Annual expenditure in million British pounds.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "68e4528f913d50ca9b5b0d131916b2f31fcad0c15ee80d11d9416c984361ae52",
+      "reference_sha256": "8c8af5213ba4e833c8b8adc4bc579ec9e5f331a4c8f5c7c6dc2dc5d856131ea3",
+      "media_sha256": [
+        "3badb1c0afb0d6889bd35f18e074f081c1e83811d1dd9b9845f14f12d72c9bb3"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1910": {
+      "dimension": "deaths_per_birth",
+      "reference_scale": 0.0001,
+      "reason": "Axis: Deaths per 10,000 live births.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "386972a1c8d4b7b6b6a2a960b54f95e0afc8008bc61d2fb530e4c3bd1bb62340",
+      "reference_sha256": "29ee17ceb7e426c28c4b125e942d72fce5339ad70a18682a727a17a6501654a8",
+      "media_sha256": [
+        "37a0511d34318d9828e0a0c1d517843e5a142b7230aa8222ee79072d8ecbd6f0"
+      ]
+    },
+    "ChartQA:1915": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "b5f0967c302f6462c4cd6d08eab2a67995f7409b6278da70791ec4bc96db2f9f",
+      "reference_sha256": "5fa40b070d68287f3dfb5b0de4e248aa65c327b9b21f83dedaa832ef1f1d2f37",
+      "media_sha256": [
+        "c7d30c4370383921dfef7378e54ac627e418ea07be623caf6e3bf616b1bc3aa0"
+      ]
+    },
+    "ChartQA:1922": {
+      "dimension": "USD",
+      "reference_scale": 1000000000,
+      "reason": "Axis: Revenue in billion U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "2d3d442292c27fdcbc5450a9acc055b3ed05f0e10549bd51795522c5b130fb6f",
+      "reference_sha256": "e041adb30b67628488ed8381bfec79c01dd7b841a601d929153263e110dc1e3d",
+      "media_sha256": [
+        "db59afbf275d647159185bf83492a574af384809cf744e30ed0c032cc8726d4e"
+      ],
+      "bare_scales": [
+        1000000000,
+        1
+      ]
+    },
+    "ChartQA:1946": {
+      "dimension": "count",
+      "reference_scale": 1000000,
+      "reason": "Axis: Visitors in millions.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "942d92b1fd505d60b0b7e71121430ae3278583d0bb5fe9066667af0425b8b7a4",
+      "reference_sha256": "da795b2260edecf7c507a8877a472541a533ad1f63529c2b32be49026a0e8b2f",
+      "media_sha256": [
+        "dad697de252673755bc37319c6660462a96881af6c50c4ec1a7c79c7e6b7e402"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1954": {
+      "dimension": "count",
+      "reference_scale": 1000000,
+      "reason": "Axis: Inhabitants in millions.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "8258fcbfd40359a77856edbc0f429eb538e542256ebd082fe1f8b5c0af553891",
+      "reference_sha256": "04e82433b93ea51e72a13fff5ce09cc345264fa16c82a063107f3b3a06c153d4",
+      "media_sha256": [
+        "05147fcde479f5edd460d435a365383eb263b0ce6064c1af12f4d05320984224"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:1957": {
+      "dimension": "USD",
+      "reference_scale": 1000000000,
+      "reason": "Axis: Amount of student grants in billion U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "4327c557c7a53e5de4b1da857a939e674f745cd1258187886e8a8fbb23fc9043",
+      "reference_sha256": "37e37e5c4143922239ae35ba4cd7f61b8afeba34bc89640a5a7f06ca2d06a681",
+      "media_sha256": [
+        "85d65dcb2738d366d9dec2b9bef266fafd87fdc89717c6591b033db14ef961ef"
+      ],
+      "bare_scales": [
+        1000000000,
+        1
+      ]
+    },
+    "ChartQA:1965": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "ab4fc2d7f0a3da1081794dcd4a332dc7339a92587a33c681c6b2b5d1b41d7bd2",
+      "reference_sha256": "7b0c1669c62dcdc3c7db268abf36892ddf0edc287ca1f8bda3fd8159ca6b578a",
+      "media_sha256": [
+        "f8b840cd48ded6e0f6aa4953d36198c56be8d7f5c52f97dbc5513f2eb1115692"
+      ]
+    },
+    "ChartQA:1967": {
+      "dimension": "year",
+      "reference_scale": 1,
+      "reason": "Question requests year, published label retained; chart includes 2021.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "35f8c8d7ed875cb6ff45f8f6f5c46e80875d234e801996f0a244b7f48e19a0d9",
+      "reference_sha256": "689d107de19bf9b44f4648dfa3475913f1a21a7a5f256ef6e818834a2b3be689",
+      "media_sha256": [
+        "778f22a6193e06efaf213c28f57b2d401738fc5721838956a1a0de31e0a99afc"
+      ]
+    },
+    "ChartQA:1984": {
+      "dimension": "EUR",
+      "reference_scale": 1000,
+      "reason": "Axis: Quarterly revenue in thousand euros.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "f9c7639fbb15c7a632e5c104ab39d3704892b376ac2001c47a411fb1e61b4751",
+      "reference_sha256": "38cea4934a11b38b71b1dbd3ad74c113494aeb4102990f2715760abe3a0a5846",
+      "media_sha256": [
+        "2ee09add4be4767e9b2f16f411179fcbb9ea84a85188e9669b6bfae4d3b2701c"
+      ],
+      "bare_scales": [
+        1000,
+        1
+      ]
+    },
+    "ChartQA:2002": {
+      "dimension": "mass_tonne",
+      "reference_scale": 1000000,
+      "reason": "Axis: Production in million metric tons.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "fef35b40a7d87c35c2ec63335b2a26d5b26dcef62edcb36a96d6394ee0f4bc65",
+      "reference_sha256": "cab0f2fad1c3a1e02646a34d76de3aa1e729121eb3fa288ca0eb2f13985e8bb4",
+      "media_sha256": [
+        "4bd25b9f9eb1909b717fd08e1bf11fc20878633da7f900b91c9d1f41783ac313"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:2015": {
+      "dimension": "USD",
+      "reference_scale": 1000000000,
+      "reason": "Axis: GDP in billion U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "05af9f73613bfd40b145e5f990d187cae90b48869d15ae30cd0992bd62137465",
+      "reference_sha256": "b51d3d3af4b3d39b755fa6d3026ac1c5f3924ea1361a00fb33435927ba78bd67",
+      "media_sha256": [
+        "b9ccaf54cf828ad00e667f9322077b4804d99fb27353990710e8a46277153b41"
+      ],
+      "bare_scales": [
+        1000000000,
+        1
+      ]
+    },
+    "ChartQA:2022": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "7b91703ab9271739b172a200f9ea4c49b5dcc40aac3c413a29b174f341f5170d",
+      "reference_sha256": "ed173519dfa7ed25b1e55bb87406e221f3755743c424fdcba49a3dc9ba080d8f",
+      "media_sha256": [
+        "2f60baca9f12e6e7591801dcdff0f66fbe73e8b3c9a15083d3afea26f6b20da8"
+      ]
+    },
+    "ChartQA:2057": {
+      "dimension": "USD",
+      "reference_scale": 1000000,
+      "reason": "Axis: Subsidies in million U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "72584fa8d4e6870ee3a407a404d76ac0d248350984edb9ad1df2002771d5bd4e",
+      "reference_sha256": "0258ebe9e897dede24aa1c352fab3d250ac1071102eaf4c15c5be6a903c7f1aa",
+      "media_sha256": [
+        "ed4293191b39121f28b2319366e4f6cb5489f6778a731432379df49b6184f4c0"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:2058": {
+      "dimension": "USD",
+      "reference_scale": 1000000000,
+      "reason": "Axis: International visitor spending in billion U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "3571fcf75fe5e97fffda0c0b323d7ff760a26d369e904cbb801a474bdcb695c9",
+      "reference_sha256": "aa2fec4f844df77b1ac5519cc4edd9f8c6388d2093b764e6213efaf04cbcb92a",
+      "media_sha256": [
+        "bc792dd60629e81dca885113992f0dcb412371c60354cd9cc9dbcbd6d899cc62"
+      ],
+      "bare_scales": [
+        1000000000,
+        1
+      ]
+    },
+    "ChartQA:2064": {
+      "dimension": "USD",
+      "reference_scale": 1000000000,
+      "reason": "Axis: Revenue in billion U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "8b942debb7312383d6304f12acb8dc73444d3ee0ae43bbd0cfc2c34d94b888d3",
+      "reference_sha256": "5197f8cb5591b557722016797510aa915b40c711cecd7bb7c17ab4309a78a6d3",
+      "media_sha256": [
+        "712bc5e1ff3cf64a6c6789847c45b08c7037f9178b0578fb5addea0e3227be47"
+      ],
+      "bare_scales": [
+        1000000000,
+        1
+      ]
+    },
+    "ChartQA:2130": {
+      "dimension": "count",
+      "reference_scale": 1000000,
+      "reason": "Axis: Number of adults in millions.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "d2653ddb862976ffa79d311527384fc2821394ecb7555f0e19fbcf505be596b5",
+      "reference_sha256": "40eaf935273aca4cd16b07580818c0b51f5dcf3324a14e095f44f0d14450d007",
+      "media_sha256": [
+        "72595639694609e04cfdc8eb91d0caec4ff18d0b3a2068060e25e67ab8e080a8"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:2155": {
+      "dimension": "count",
+      "reference_scale": 1000000,
+      "reason": "Axis: Female labor force in millions.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "14d581e3f4cf48a0488dc2a48bec046622df4ec041049f05d8565e67eed4f7bd",
+      "reference_sha256": "49ad2bd72690b100939098c610f9197cbf10337ad27480ec504efe14518d5c3d",
+      "media_sha256": [
+        "35ec2f9041a0d124cc11eda8d0efe9e0b37740f1268d39a447653001c5ec1890"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:2170": {
+      "dimension": "USD",
+      "reference_scale": 1000000000,
+      "reason": "Axis: Brand value in billion U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "545af012c55862ec2d82e6625c461a41fb3af53cd65932226b1131a40270405e",
+      "reference_sha256": "91a90f7bb75cd71de5bd46db260a4dffef1954a0a92ee433d1da6bd9eb4c0348",
+      "media_sha256": [
+        "630be99dcee4d064bd7bbcf9807ec51471d64b05cf9b2015d4d8ffd099d07fea"
+      ],
+      "bare_scales": [
+        1000000000,
+        1
+      ]
+    },
+    "ChartQA:2175": {
+      "dimension": "USD",
+      "reference_scale": 1000000,
+      "reason": "Axis: Total exports in million U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "d1d3e18741e7ab9363dd904f7172ac297c85500ea9520c336c7eba0ee10fe18a",
+      "reference_sha256": "774f34efc429c7a82b68b7826168a05e8cd94ba4933e7936290d44c048147d11",
+      "media_sha256": [
+        "72ed5f1f3354d3d30d1bb4ced99e9197d6771bce28697e851a68469885187c0b"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:2211": {
+      "dimension": "EUR",
+      "reference_scale": 1000000,
+      "reason": "Y-axis: Annual turnover in million euros.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "f7b57df16b4feacd79c8baad57ec1f89c4e5515b35b5a8871a2941cc2ec4e761",
+      "reference_sha256": "ded051835e3ad8333851e55a7c7746a6267ccd098e4c14ad5dbb29775b42708d",
+      "media_sha256": [
+        "498f64c69046219d34459c59f9b5253d4e431e0fc4f70cf7244970fe7393d46b"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:2221": {
+      "dimension": "USD",
+      "reference_scale": 1,
+      "reason": "Axis: Mean annual expenditure in U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "e55d457178b2b435d93c7ce53c7f3967c33c2ed090f91c20bc82a7a93d9e4554",
+      "reference_sha256": "f1ff0631541c06a73741a1f3af875530513fa618c0ea22f703f1fa616ff54eb9",
+      "media_sha256": [
+        "6cd5894d98ae6382302011fe016afa6103faafdde45f386ad03bb725e763601e"
+      ]
+    },
+    "ChartQA:2223": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "49919970ad3f7d1cdcc786ca1682ebd018028e43457154e480a54b54d8b18dd0",
+      "reference_sha256": "f7e8ecd39059b42fbac8fe512ae4b98cc20b4cd0da42d2999a67df0dd71e868b",
+      "media_sha256": [
+        "1dc3dd670e12c9a139ffc91850e87d35317583fa78a6a6f48698497f3227f32b"
+      ]
+    },
+    "ChartQA:2235": {
+      "dimension": "tonne_km",
+      "reference_scale": 1000000,
+      "reason": "Axis: Transport volume in million tonne-kilometers.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "ebe0e69eea58a46ca2160a6062b5f1fe676297c316a57c3c983e6934ddf6aa78",
+      "reference_sha256": "7a6aff01f952cb54696729a3e69eee353d16feb8805eb60ce6d4491da8cc3d1b",
+      "media_sha256": [
+        "36279bc68b73f08d96824b3cdfc7cd561fef7c77dbee20508c7304438233bd6b"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:2246": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "a919316ff087271810d1edc51b11c273f8ac129cc3391ded2afb3b5d42ce6279",
+      "reference_sha256": "e8b914b367e0d4b94c4c9f5b8faf6ded07cac28a2bde4c30b3f9296508da8ca2",
+      "media_sha256": [
+        "41afdecda9d7d133e9397961053f239020d9dae43ec44dc9a93681ca564eb15b"
+      ]
+    },
+    "ChartQA:2285": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "2d1a20b3068b7533f88347b28b47a1c13bff14d330fa88c4c447954da0ded837",
+      "reference_sha256": "ff0e486b3ac2821cdaef3ce0ce301aab971634c6925b81405c09a3466057d95e",
+      "media_sha256": [
+        "ce4c862086c4ecd840b8747931cc3f3edecb08087b5c74a10ef53e46529dafe4"
+      ]
+    },
+    "ChartQA:2295": {
+      "dimension": "EUR",
+      "reference_scale": 1000000,
+      "reason": "Axis: Net sales in million euros.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "37b9bcdc003d82971f3b15c66e5c9514be481d74c68c7d58dbd3a7e11121768a",
+      "reference_sha256": "0bf7856591b9236e8d478ba7cba4398cc75b542cf315bad307b6829b49ad5661",
+      "media_sha256": [
+        "e265d3f06f1e8b6511eae9bc301c78227abcbedb1dd68df84a650b897176e6ed"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:2329": {
+      "dimension": "mass_tonne",
+      "reference_scale": 1000000,
+      "reason": "Axis: Total supply in million metric tons.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "cca6b019b0b3e7554cf47dbc3267415bc437dae14c3688cecab42dcd1bfc4679",
+      "reference_sha256": "c197b2ceac23c422e78603874a27b5c8ea64606928f7b1b3094e5922f5ab96ad",
+      "media_sha256": [
+        "8251182a6ee5a74863a1b735c8dc642bc207c358ee8da1174b948118c27253b6"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:2358": {
+      "dimension": "USD",
+      "reference_scale": 1000000,
+      "reason": "Axis: Revenue in million U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "a2ab058ba036e87e1839d9d829d64a38ec31e99276dd1737da1c7af651a62bb5",
+      "reference_sha256": "d468ed35567ada92a6bbc3637192640940c7e8b6324da77e854e534b98096c19",
+      "media_sha256": [
+        "86b5436234621cf9ec454293f431b8a4178948dd528192f7f2f6e32a78a8d86b"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:2416": {
+      "dimension": "area_m2",
+      "reference_scale": 1000000,
+      "reason": "Axis: Imports in million square meters.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "1ca5cbc880ae89298695b783f0e2bb8f8b1ee4e66d3657fe0d9ded67570121c9",
+      "reference_sha256": "8900d4b456829bc0ebf73818cca2b945bdf1cb01745d231d452de48fdaaed3b8",
+      "media_sha256": [
+        "b862635dc1f389046239c1f33ead0ccbe05daf0c2d66d8503832c80545664551"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:2417": {
+      "dimension": "area_m2",
+      "reference_scale": 1000000,
+      "reason": "Axis: Imports in million square meters.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "46e9f2274df728b1ebbefc844ee8624db053e7f73126d504e31372b38d100868",
+      "reference_sha256": "47620f876c7a4eadf030f1d5a20ba95e4f75ee5d0276e6158589ec3412e1a595",
+      "media_sha256": [
+        "b862635dc1f389046239c1f33ead0ccbe05daf0c2d66d8503832c80545664551"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:2435": {
+      "dimension": "SAR",
+      "reference_scale": 1000000000,
+      "reason": "Axis: Value in billion Saudi Riyal.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "6708beaa4f2165ea8297f09c4a90a7ad274db2a5d581c9c6058ff1aa15447892",
+      "reference_sha256": "fdf92271ba3379c274b40590bcc2c19c5d080a344b8568d8c688c172bb8ffa22",
+      "media_sha256": [
+        "c8cfd91342bda7737a078a6dbda7775f5e198efa88673570a713b1af143d489d"
+      ],
+      "bare_scales": [
+        1000000000,
+        1
+      ]
+    },
+    "ChartQA:2456": {
+      "dimension": "count",
+      "reference_scale": 1000000,
+      "reason": "Axis: Estimated number of Christians in millions.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "5d69892c29038e7506aa65bdb7dd530155c32c330e5d93b1d7dba84e2e12d435",
+      "reference_sha256": "c95d239e8fb93a8b740dae4b8dfd1298bfc87fd003500f6ae0e5fb6167f744a2",
+      "media_sha256": [
+        "6c1a54f24502ceb9c332a92d914a354be4a5dac597fc210126b22cd1a76bb3f9"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:2458": {
+      "dimension": "count",
+      "reference_scale": 1000000,
+      "reason": "Axis: Registered accounts in millions.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "bab74cd9872dd6be4d721ec77c553f0e4b93f5d899d9680e069f8ed87ab77eb2",
+      "reference_sha256": "b57cf5e19e312ccdc35907c4638d2bb6b4cfdbabe2df114d1bc5119fd5c3596e",
+      "media_sha256": [
+        "911ad669fd9e7957337112512aab852d1d73b452b768076fa26c11f685547528"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:2460": {
+      "dimension": "USD",
+      "reference_scale": 1,
+      "reason": "Axis: Average hourly earnings in U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "f9d26ca3e76981dea869941ffe8c736d882b1c840ea8cf7b8882442fe81226e6",
+      "reference_sha256": "1df9637e7017ed24d25f7685a5fa4e5e558ed5e3adb0d26112842c1f5587761b",
+      "media_sha256": [
+        "e69e65a2353c3a94c533a02929fd58529587c3d5066630d0c5549f7d0402f9cb"
+      ]
+    },
+    "ChartQA:2462": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "cc635c17e2fdd3008c669359b6e35f7a4d25f4500e13ed0f04e086328f826d45",
+      "reference_sha256": "509fa3f4c23430308ab807e37e97a35f1ce70c7bc7aaf8ad21bfeb12d97b9cc8",
+      "media_sha256": [
+        "52ba423eba7bfa2a41d2e4c1e3d5d2c456db29c42fdba457f5afa3d7100bd283"
+      ]
+    },
+    "ChartQA:2464": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Growth question, displayed growth value 18.4; percentage interpretation inferred from growth context (symbol omitted on axis).",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "c72472c0ea2da1b4301ef5db06cdad06d5bdf742040f8505529d5231ce370434",
+      "reference_sha256": "f3dd7b84e4edd048ebbecbed355905883c4af55d9c96ab7627e2ac24567fefa5",
+      "media_sha256": [
+        "7b59efcc9ffa4d270848b667ac7d921b81225e4c8cdb81f6e5e1fa1d77042821"
+      ]
+    },
+    "ChartQA:2470": {
+      "dimension": "CNY",
+      "reference_scale": 1000000,
+      "reason": "Axis: Revenue in million yuan.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "d222eccc9d5e703fa6633f430930b402b519fce50a23d0e917ed0b6a5d689304",
+      "reference_sha256": "59cfe5b540008b209a6633a4bef586d5676d68351e48ce9f0cdf14916a004366",
+      "media_sha256": [
+        "2e845a61a23adfd71fa03eacd8c709f94e4165e07da88aae47ee38963db9618f"
+      ],
+      "bare_scales": [
+        1000000,
+        1
+      ]
+    },
+    "ChartQA:2491": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "b5f606633a65e7a50fa6d76ff93f12ab16444d0016d2ea1d39491383877c6f92",
+      "reference_sha256": "b69a840b2128494c188eb151f39dc73b4be06a2447bf178cc8cd7116d1373521",
+      "media_sha256": [
+        "615ce244b8113a3959011d57c6962c82e2c6daf2bc45572c72428b4e4a7a24f5"
+      ]
+    },
+    "ChartQA:2492": {
+      "dimension": "ratio",
+      "reference_scale": 0.01,
+      "reason": "Chart axis/data labels explicitly show percentages.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "02d964ba869e891343cd4153e846b66b7bf77e7075832d7808d1df326fefa343",
+      "reference_sha256": "bf345de3c3f5d6574ab8b8f5ad2a0a7cd65e44834b93786ff67fd997eb49f27b",
+      "media_sha256": [
+        "615ce244b8113a3959011d57c6962c82e2c6daf2bc45572c72428b4e4a7a24f5"
+      ]
+    },
+    "ChartQA:1652": {
+      "dimension": "USD",
+      "reference_scale": 1,
+      "reason": "Y-axis: Average ticket price in U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "cbf418f43e5a5fada447250fe77311daad5cca0a57ac7919e6d8cd7592c6ae1a",
+      "reference_sha256": "ea20833a6c07200d377c5cfc98f97fa74aa861793e9f12ce1b603276960848b0",
+      "media_sha256": [
+        "e5565719364946ce2fa024c37c9de02902b508fcbcf3eb30f498531ea2db83e0"
+      ]
+    },
+    "ChartQA:2144": {
+      "dimension": "USD",
+      "reference_scale": 1,
+      "reason": "Y-axis: Average price in U.S. dollars.",
+      "evidence": "Direct original-image inspection during parser repair.",
+      "input_sha256": "f21471c1229f6aa28f5e5715a808dd9222099d0714f7c45ba7d5f11fe65bee3c",
+      "reference_sha256": "db96a3e19df5e2ab339884a32c948586e4fc37671cbc64f580c4a31662747583",
+      "media_sha256": [
+        "6d222c4dc65e1689872c2ddb7bc7f4c7e78fb81282796e2cc256439acf3ecb3b"
+      ]
+    }
+  }
+}

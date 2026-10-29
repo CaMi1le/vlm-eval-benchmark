@@ -1,0 +1,6 @@
+{
+  "original_summary_sha256": "faa637bfc1eca050707f9ebe1858225f717a431df015da8b309584b9b7bb5d7b",
+  "transformation": "Only execution_context replaced with a public field allowlist; numeric scores, timings, source hashes and case IDs retained. No raw responses or media published.",
+  "archive_date": "2026-10-23",
+  "summary_is_archived_not_rescored": true
+}

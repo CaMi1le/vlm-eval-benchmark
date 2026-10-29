@@ -1,0 +1,30 @@
+{
+  "minicpm47-awq": {
+    "backend": "vllm_multimodal",
+    "family": "minicpm47",
+    "host": "auto",
+    "gpus": [
+      0
+    ],
+    "path": "/absolute/path/to/minicpm47-runtime-view",
+    "docker_image": "vlmbench-minicpm47:local",
+    "source_repo": "openbmb/MiniCPM-V-4.7-35B-A3B-AWQ",
+    "revision": "9832dea29707a60ba3c2001b6ad5533212d150cd",
+    "precision": "INT4 AWQ W4A16 group128 routed experts; BF16 vision/attention/shared experts",
+    "thinking": false,
+    "max_new_tokens": 128,
+    "max_model_len": 16384,
+    "gpu_memory_utilization": 0.8,
+    "enforce_eager": true,
+    "mm_processor_cache_gb": 0,
+    "trust_remote_code": false,
+    "downsample_mode": "16x",
+    "single_image_max_slices": 4,
+    "multi_image_max_slices": 1,
+    "verify_quantized_expert_layers": 40,
+    "max_time_seconds": null,
+    "sampling": {
+      "do_sample": false
+    }
+  }
+}

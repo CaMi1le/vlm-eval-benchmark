@@ -1,0 +1,5 @@
+{
+  "base_url": "https://your-provider.example/v1",
+  "api_key": "REPLACE_IN_API_LOCAL_JSON",
+  "model": "your-vision-model"
+}
