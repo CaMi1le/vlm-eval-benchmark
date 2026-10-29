@@ -98,7 +98,24 @@ def test_no_timeout_waits_for_delayed_response(tmp_path):
         client = APIClient(credentials, timeout=None)
         assert client.public_config['timeout_seconds'] is None
         assert client.generate(case, root)['answer'] == 'A'
-        assert len(received) == 2
+        # The first deadline may expire during preprocessing on a loaded host.
+        assert 1 <= len(received) <= 2
+
+
+def test_preprocessing_deadline_is_wrapped_without_opening_connection(tmp_path, monkeypatch):
+    from vlmbench import api
+    root = tmp_path / 'suite'
+    case = suite_fixture(root)[0]
+    credentials = tmp_path / 'credentials.local.json'
+    write(credentials, {'base_url': 'http://127.0.0.1:1/v1', 'api_key': KEY, 'model': 'fixture'})
+    client = APIClient(credentials, timeout=0.01)
+    times = iter([0.0, 1.0])
+    monkeypatch.setattr(api.time, 'perf_counter', lambda: next(times))
+    def unexpected_connection(*args, **kwargs):
+        raise AssertionError('Expired request must not create a connection')
+    monkeypatch.setattr(api.http.client, 'HTTPConnection', unexpected_connection)
+    with pytest.raises(APIError, match='TimeoutError: API request deadline exceeded'):
+        client.generate(case, root)
 
 
 def test_skip_warmup_issues_only_planned_requests(tmp_path):

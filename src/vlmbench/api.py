@@ -110,8 +110,9 @@ class APIClient:
             return seconds
 
         connection_type = http.client.HTTPSConnection if self._url.scheme == 'https' else http.client.HTTPConnection
-        connection = connection_type(self._url.hostname, self._url.port, timeout=remaining())
+        connection = None
         try:
+            connection = connection_type(self._url.hostname, self._url.port, timeout=remaining())
             connection.connect()
             connection.sock.settimeout(remaining())
             connection.request('POST', self._url.path.rstrip('/') + '/chat/completions', body=body,
@@ -171,7 +172,8 @@ class APIClient:
         except Exception as exc:
             raise APIError(self.clean(f'{type(exc).__name__}: {exc}')) from None
         finally:
-            connection.close()
+            if connection is not None:
+                connection.close()
 
 
 def request_row(client, case, suite, no_image):
